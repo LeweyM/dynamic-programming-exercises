@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from allspell import all_spell
+from memo.allspell import all_spell
 
 
 class Test(TestCase):

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from howspell import how_spell
+from memo.howspell import how_spell
 
 
 class Test(TestCase):

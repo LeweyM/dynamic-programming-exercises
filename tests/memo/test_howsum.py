@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from howsum import how_sum
+from memo.howsum import how_sum
 
 
 class Test(TestCase):

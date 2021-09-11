@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from cansum import can_sum
+from memo.cansum import can_sum
 
 
 class Test(TestCase):

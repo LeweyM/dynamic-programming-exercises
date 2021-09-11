@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from bestsum import best_sum
+from memo.bestsum import best_sum
 
 
 class Test(TestCase):

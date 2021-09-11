@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from bestspell import best_spell
+from memo.bestspell import best_spell
 
 
 class Test(TestCase):

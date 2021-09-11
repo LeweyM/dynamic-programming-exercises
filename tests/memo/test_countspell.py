@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from countspell import count_spell
+from memo.countspell import count_spell
 
 
 class Test(TestCase):
