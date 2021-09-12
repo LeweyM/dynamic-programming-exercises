@@ -27,3 +27,20 @@ def shortest(a1, a2):
         return a1
     else:
         return a2
+
+# Complexity
+#
+# m : len(target)
+# n : numbers in number list
+#
+# Time:
+#
+# Iterate once through each node (m). At each node, branch for each number (n), and at each number iteration
+# make a slice from target (m)
+# O(m^2 * n)
+#
+# Memory:
+#
+# call stack relative to target length (m) and memo dict of size (m) for each node with each cell containing
+# a list of size (m)
+# O(m^2)

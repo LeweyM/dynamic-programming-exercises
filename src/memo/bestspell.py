@@ -19,3 +19,20 @@ def best_spell(target, words, memo=None):
 
     memo[target] = best_result
     return best_result
+
+# Complexity
+#
+# m : len(target)
+# n : number of words in word list
+#
+# Time:
+#
+# Iterate once through each node (m). At each node, branch for each word (n), and at each word iteration
+# make a slice from target (m)
+# O(m^2 * n)
+#
+# Memory:
+#
+# call stack relative to target length (m) and memo dict of size (m) for each node with each cell containing
+# a list of size (m)
+# O(m^2)
